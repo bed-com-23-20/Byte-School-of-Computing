@@ -2,6 +2,7 @@ import React from "react";
 import SearchBar from "../../others/searchBar";
 import "./header.css"
 import Logo from '../../images/Logo.jpeg'
+import { NavLink } from "react-router-dom";
 
 function Header(){
     return(
@@ -11,9 +12,10 @@ function Header(){
         
             <SearchBar/>
             <ul>
-                <li>Home</li>
-                <li>Courses</li>
-                <li>About Us</li>
+                <li> <NavLink to="/" className="links" >Home</NavLink> </li>
+                <li> <NavLink to="coursesPage" className="links" >Courses</NavLink> </li>
+                <li> <NavLink to="aboutUsPage" className="links" >About Us</NavLink> </li>
+            
             </ul>
 
         </div>

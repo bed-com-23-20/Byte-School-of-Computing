@@ -13,13 +13,9 @@ ul{
     justify-content: center;
     align-items: center;
 }
-ul li{
-    margin-left: 2em;
-    font-weight: 500;
-    cursor: pointer;
-}
 
-ul li:hover{
+
+.links:hover{
 color: green;
 transition: 0.5s;
 }
@@ -29,4 +25,11 @@ ul li:active{
 }
 .logo{
     margin-right: 5em;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    margin-left: 2em;
+    font-weight: 500;
+    cursor: pointer;
 }
