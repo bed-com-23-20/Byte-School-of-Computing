@@ -19,7 +19,7 @@ ul{
 color: green;
 transition: 0.5s;
 }
-ul li:active{
+.links:active{
     text-decoration: underline;
     color: green;
 }

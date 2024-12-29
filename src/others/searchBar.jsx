@@ -26,7 +26,7 @@ const SearchBar = () => {
           width: '300px',
           border: '1px solid #ccc',
           borderRadius: '4px',
-          fontFamily: "Studio-Feixen-Sans",
+          fontFamily: "Studio-Feixen-Sans, Arial",
         }}
       />
       <button
